@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!--encoding variables-->
+    <meta charset="UTF-8">
+    <!--title of the page-->
+      <title>page of contact</title>
+      <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<!--navigation bar of the page-->
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Experience</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About page</a></li>
+</ul>
+
+
+<h3>Contact Form</h3>
+<!--creating the form of the page-->
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Email</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required="">
+
+   
+<!--creation of labels-->
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="England">England</option>
+      <option value="Norway">Norway</option>
+      <option value="Others">Others</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required=""></textarea>
+<!--creation of text input of the page-->
+    <input type="submit"  value="Submit" onclick="myFunction()">
+  </form>
+  <p id="demo"></p>
+
+</div>
+<!--creation of the footer-->
+<div class="footer">
+  <p>Welcome to Best Designs</p>
+</div>
+
+</body>
+</html>
